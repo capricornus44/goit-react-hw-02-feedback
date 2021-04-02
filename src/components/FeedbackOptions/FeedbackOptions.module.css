@@ -1,0 +1,23 @@
+.button {
+  display: inline-block;
+  width: 80px;
+  height: 50px;
+  border: none;
+  border-radius: 10px;
+  outline: none;
+
+  font-size: 1.25rem;
+  color: #ffffff;
+  background-color: rgb(2, 5, 34);
+  cursor: pointer;
+}
+
+.button:not(:last-child) {
+  margin-right: 10px;
+}
+
+.button:hover,
+.button:focus {
+  background-color: #ffc222;
+  color: #000000;
+}
